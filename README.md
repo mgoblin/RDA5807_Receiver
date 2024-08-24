@@ -56,6 +56,8 @@ All used libraries contrains in platfrom.ini file.
 |4.|SplashScreen |1.0.0  |![Link](https://github.com/mgoblin/ArduinoSplashScreen)|
 
 # Firmware settings
+All firmware settings placed in ![setting.h](include/settings.h) file. Please fill free to adjust settings before compile firmware.
+
 
 	
 

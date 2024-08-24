@@ -1,6 +1,6 @@
-# FM Receiver on RDA5807 chip
+# FM Radio on RDA5807 chip
 
-This project is a FM Receiver based on RDA5807 chip (RRD 102v2), Arduino Nano and OLED display.
+This project is a FM Radion receiver based on RDA5807 chip (RRD 102v2), Arduino Nano and OLED display.
 
 # Receiver features
 - Receive FM Radio band 87..108MHz

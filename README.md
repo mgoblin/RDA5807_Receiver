@@ -25,7 +25,7 @@ This project is a FM Radio receiver based on RDA5807 chip (RRD 102v2), Arduino N
 ----
 
 ## Hardware design
-![Breadboard scheme](schema/FM_Receiver.svg)
+![Breadboard scheme](schema/FM_Receiver.jpg)
 
 RRD102v2 is the component required for receiving FM radio. RRD102v2 based on RDA5807 chip. Its have VCC voltage is 3.3V, direct output left and right sound channels on headphones and supports I2C control interface.
 

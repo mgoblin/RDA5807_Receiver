@@ -1,6 +1,6 @@
 # FM Radio on RDA5807 chip
 
-This project is a FM Radion receiver based on RDA5807 chip (RRD 102v2), Arduino Nano and OLED display.
+This project is a FM Radio receiver based on RDA5807 chip (RRD 102v2), Arduino Nano and OLED display.
 
 # Receiver features
 - Receive FM Radio band 87..108MHz
@@ -38,6 +38,17 @@ Long press of FREQ_DOWN button saves current FM frequency to Arduino Nano EEPROM
 Sound volume on headphones output is not regulated yet.
 
 GF1002 is D-class amplifier to output sound to the speaker. Its have left and right channels, but now used only one channel.
+
+# Firmware
+
+# IDE and programming language
+Firmware was developed using 
+![PlatformIO](https://docs.platformio.org) and C++ programming language for Arduino.
+
+# List of libraries
+
+
+
 
 
 

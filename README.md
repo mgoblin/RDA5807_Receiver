@@ -46,7 +46,18 @@ Firmware was developed using
 ![PlatformIO](https://docs.platformio.org) and C++ programming language for Arduino.
 
 # List of libraries
+All used libraries contrains in platfrom.ini file.
 
+|# |Library      |Version|Link to source|
+|--|-------------|-------|--------------|
+|1.|RDA5807      |1.1.9  |![Link](https://github.com/pu2clr/RDA5807)|
+|2.|OneButton    |2.5.0  |![Link](https://github.com/mathertel/OneButton)|
+|3.|GyverOLED    |1.6.3  |![Link](https://github.com/GyverLibs/GyverOLED)|
+|4.|SplashScreen |1.0.0  |![Link](https://github.com/mgoblin/ArduinoSplashScreen)|
+
+# Firmware settings
+
+	
 
 
 

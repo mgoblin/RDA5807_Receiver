@@ -8,6 +8,7 @@ This project is a FM Receiver based on RDA5807 chip (RRD 102v2), Arduino Nano an
 - Headphones or speaker output
 - Display current FM frequency
 - Save selected FM station frequency to EEPROM
+- Show splash screen on start
 
 # Hardware
 ## Hardware parts list
@@ -24,6 +25,8 @@ This project is a FM Receiver based on RDA5807 chip (RRD 102v2), Arduino Nano an
 ----
 
 ## Hardware design
+![Breadboard scheme](schema/FM_Receiver.svg)
+
 RRD102v2 is the component required for receiving FM radio. RRD102v2 based on RDA5807 chip. Its have VCC voltage is 3.3V, direct output left and right sound channels on headphones and supports I2C control interface.
 
 When input voltage started Arduino Nano intialize RDA5807 FM chip and set receive frequency value from EEPROM. Default FM frequency is 104.7MHz and can be changed via firmware source code. OLED display shows current receive frequency.
@@ -35,6 +38,8 @@ Long press of FREQ_DOWN button saves current FM frequency to Arduino Nano EEPROM
 Sound volume on headphones output is not regulated yet.
 
 GF1002 is D-class amplifier to output sound to the speaker. Its have left and right channels, but now used only one channel.
+
+
 
 
 
